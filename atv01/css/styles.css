@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(../KGMakesYouStronger.ttf);
+}
+
+* {
+    font-family: "CustomFont", Arial, Helvetica;
+    color: aliceblue;
+}
+
+body {
+    margin: 0;
+    background-color: maroon;
+}
+
+h1 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    padding: 10px;
+    background-color: brown;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    padding: 30px;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.aboutMe {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.cars {
+    display: inline-flex;
+}
+
+.hobby img {
+    width: 40%;
+    height: 40%;
+    border: black solid 4px;
+    border-radius: 7px;
+}
+
+.hobby h3 {
+    padding-top: 2rem;
+    font-size: 26px;
+}
+
+.cars p {
+    margin: 30px 100px 50px 100px;
+    
+}
+
+.cats img {
+    display: flex;
+    justify-content: center;
+}
+
+.cats img {
+    margin: auto;
+}
+
+.cats p {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.jobs ol {
+    font-size: 30px;
+    padding: 0 70px;
+}
+
+.jobs ol li {
+    padding: 45px;
+}
+
+.tecn {
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.tecn ul{
+    margin-right: 200px;
+}
+
+.tecn img {
+    width: 10%;
+    height: 10%;
+    padding: 15px;
+    background-color: brown;
+    border-radius: 15px;    
+}
